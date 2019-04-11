@@ -37,6 +37,27 @@ include(locate_template('header.php'));
 
 		endwhile; // End of the loop.
 		?>
+		<?php
+		while ( have_posts() ) : the_post();
+
+		the_content();
+
+		endwhile; // End of the loop.
+		?>
+		<?php
+		while ( have_posts() ) : the_post();
+
+		the_content();
+
+		endwhile; // End of the loop.
+		?>
+		<?php
+		while ( have_posts() ) : the_post();
+
+		the_content();
+
+		endwhile; // End of the loop.
+		?>
 
 	</div><!-- #conatiner -->
 </section><!-- .wrap -->
