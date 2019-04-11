@@ -63,4 +63,8 @@ include(locate_template('header.php'));
 </section><!-- .wrap -->
 
 <?php get_footer();
+<?php get_footer();
+<?php get_footer();
+<?php get_footer();
+<?php get_footer();
 
